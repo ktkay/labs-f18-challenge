@@ -12,7 +12,7 @@ def main():
 @app.route('/pokemon/<string:query>', methods=['GET'])
 def pokemon(query):
     response = requests.get('http://pokeapi.co/api/v2/pokemon/'+str(query)+'/')
-    return render_template('pokemon.html', response = response.json(), query = query)
+    return render_template('index.html', response = response.json(), query = query)
 
 if __name__ == '__main__':
     app.run()
