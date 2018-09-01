@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-form flask import request
+from flask import request
 from flask import json
 
 app = Flask(__name__)
