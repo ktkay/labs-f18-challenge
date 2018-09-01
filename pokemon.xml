@@ -1,4 +1,4 @@
-<ProxyEndpoint name="default">
+<ProxyEndpoint name="pokemon">
 	<HTTPProxyConnection>
 		<BasePath>/dynamic-endpoint</BasePath>
 		<VirtualHost>default</VirtualHost>
